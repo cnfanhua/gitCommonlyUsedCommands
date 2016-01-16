@@ -12,5 +12,7 @@ git reflog 查看命令历史，以便确定要回到未来的哪个版本。
 远程仓库
 	创建ssh $ ssh-keygen -t rsa -C "youremail@example.com"
 	添加文件到仓库 
-	1 git remote add origin git@github.com:cnfanhua/TESTGIT.git	//github. TESTGIT是仓库名
-	2 git push -u origin master
+		1 git remote add origin git@github.com:cnfanhua/TESTGIT.git	//github. TESTGIT是仓库名	//关联github仓库
+		2 git push -u origin master
+	克隆仓库
+		git clone <address> //address -> git@github.com:cnfanhua/blog.git
