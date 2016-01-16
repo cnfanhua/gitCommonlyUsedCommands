@@ -22,3 +22,5 @@ git reflog 查看命令历史，以便确定要回到未来的哪个版本。
 			git checkout master
 	查看当前分支
 		git branch
+	合并分支到master
+		切换回master 然后执行命令 git merge dev //dev为分支名
