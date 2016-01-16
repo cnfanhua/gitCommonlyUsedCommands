@@ -16,3 +16,10 @@ git reflog 查看命令历史，以便确定要回到未来的哪个版本。
 		2 git push -u origin master
 	克隆仓库
 		git clone <address> //address -> git@github.com:cnfanhua/blog.git
+	创建并切换分支
+		git checkout -b dev
+		切换分支
+			git checkout master
+	查看当前分支
+		git branch
+	
