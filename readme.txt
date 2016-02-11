@@ -9,6 +9,10 @@ git log 查看提交历史，以便确定要回退到哪个版本。
 git reflog 查看命令历史，以便确定要回到未来的哪个版本。
 删除文件 git rm
 
+全局
+git config --global user.name "yyyy"
+git config --global user.email "xxx@xxx.com"
+
 远程仓库
 	创建ssh $ ssh-keygen -t rsa -C "youremail@example.com"
 	添加文件到仓库 
