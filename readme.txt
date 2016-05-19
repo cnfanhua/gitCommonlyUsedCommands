@@ -15,9 +15,11 @@ git config --global user.email "xxx@xxx.com"
 
 远程仓库
 	创建ssh $ ssh-keygen -t rsa -C "youremail@example.com"
-	添加文件到仓库 
-		1 git remote add origin git@github.com:cnfanhua/TESTGIT.git	//github. TESTGIT是仓库名	//关联github仓库
-		2 git push -u origin master
+	关联到远程仓库并拉取 
+		1 git remote add origin git@github.com:cnfanhua/TESTGIT.git	//关联github仓库
+		2 git pull --rebase origin master	//拉取内容
+	添加文件到仓库
+		git push origin master
 	克隆仓库
 		git clone <address> //address -> git@github.com:cnfanhua/blog.git
 	创建并切换分支
