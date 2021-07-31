@@ -94,3 +94,26 @@ git add .
 git commit
 git push origin master
 ```
+
+### Git 代理设置
+
+#### http
+
+```c
+git config --global http.proxy "http://127.0.0.1:8080"
+git config --global https.proxy "http://127.0.0.1:8080"
+```
+
+#### socks5
+
+```c
+git config --global http.proxy "socks5://127.0.0.1:1080"
+git config --global https.proxy "socks5://127.0.0.1:1080"
+```
+
+#### 取消代理
+
+```c
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
